@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/java:11
+      - image: circleci/java:11-jdk
     steps:
       - checkout
       - run: ./gradlew clean build
