@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/madmaux/diffs.svg?style=svg)](https://circleci.com/gh/madmaux/diffs)
+
 # Diff service
 The diff service is a HATEOS REST JSON based API that takes two base64 binaries and compare them to show the differences between them.
 
